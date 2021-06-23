@@ -63,6 +63,6 @@ with open(filepath) as inputDoc:
    # print("Greatest Increase in Profits:",maxProfMonth, "$(" + str(GreatestIncrease)+")")
    # print("Greatest Decrease in Profits:",MinProfMonth, "$(" + str(GreatestDecrease)+")")
 
-    with open("analysis/Financial Analysis.rtf","w") as textfile:
+    with open("analysis/Financial Analysis.txt","w") as textfile:
         textfile.write(Financial_Analysis)
 

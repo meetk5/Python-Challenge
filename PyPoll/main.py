@@ -56,6 +56,6 @@ election_analysis = ("\nElection Results\n"
         "---------------------------------\n")
 print(election_analysis)
 
-with open("analysis/Election Analysis.rtf","w") as textfile:
+with open("analysis/Election Analysis.txt","w") as textfile:
         textfile.write(election_analysis)
 
