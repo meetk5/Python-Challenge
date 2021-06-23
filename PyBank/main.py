@@ -23,13 +23,6 @@ with open(filepath) as inputDoc:
     currentvalue = float(firstrow[1])
     #print (currentvalue)
 
-    def average(numbers):
-        length = len(numbers)
-        sum = 0.0
-        for number in numbers:
-            sum += number
-        return sum/length
-
     for row in csvfile:
         total = total + int(row[1])
         rowcount = rowcount + 1
